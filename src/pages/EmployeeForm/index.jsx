@@ -102,7 +102,7 @@ const EmployeeForm = () => {
                   size={30}
                   onClick={() => location.push('/home')}
                 />
-                <h1>Adicionar Naver</h1>
+                <h1>{id ? 'Editar Naver' : 'Adicionar Naver'}</h1>
               </S.ActionBar>
 
               <S.Content>
